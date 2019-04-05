@@ -16,15 +16,23 @@ If the fs_url service is secured, then you need to provide the token URL, the re
 
 ### fs_url
 
-The feature service URL. Example: `https://services.arcgis.com/XXXXXXXXXXXXXXXXX/arcgis/rest/services/YYYYYYY/FeatureServer`
+The feature service URL.
+
+Retrieve it by going to the feature's page on ArcGIS Online, and then copying the URL at the lower right corner. The token is not required.
+
+Typical: `https://services.arcgis.com/n`...`W/arcgis/rest/services/`the feature name`/FeatureServer
 
 ### token_url
 
-The URL to get a token, typically: `https://www.arcgis.com/sharing/rest/generateToken`
+The URL to get a token
+
+Typical: `https://www.arcgis.com/sharing/rest/generateToken`
 
 ### token_ref
 
-The token referrer. Typically: `http://www.arcgis.com`
+The token referrer.
+
+Typical: `http://www.arcgis.com` Note: non-secure url.
 
 ### token_uname
 
