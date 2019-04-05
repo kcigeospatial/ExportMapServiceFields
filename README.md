@@ -20,7 +20,7 @@ The feature service URL.
 
 Retrieve it by going to the feature's page on ArcGIS Online, and then copying the URL at the lower right corner. The token is not required.
 
-Typical: `https://services.arcgis.com/n`...`W/arcgis/rest/services/`the feature name`/FeatureServer
+Typical: `https://services.arcgis.com/n`...`W/arcgis/rest/services/`the feature name`/FeatureServer`
 
 ### token_url
 
