@@ -27,6 +27,7 @@ Typical: `https://services.arcgis.com/n`...`W/arcgis/rest/services/`the feature 
 The URL to get a token
 
 Typical: `https://www.arcgis.com/sharing/rest/generateToken`
+Maryland: `https://maps.roads.maryland.gov/arcgis/tokens/generateToken`
 
 ### token_ref
 
